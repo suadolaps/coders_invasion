@@ -1,0 +1,7 @@
+#to not tract vscode configure
+
+.vscode/
+
+# do not track venv
+
+venv/
