@@ -14,7 +14,7 @@ def run_game():
     pygame.display.set_caption("Coder Invasion")
 
     # Make a ship.
-    ship = Ship(screen)
+    ship = Ship(ci_settings, screen)
 
     # Start the main loop for the game.
     while True:
