@@ -7,7 +7,7 @@ class Ship(Sprite):
 
     def __init__(self, ci_game):
         """Initialise the ship and set its starting position."""
-        super().__init__
+        super().__init__()
         self.screen = ci_game.screen
         self.settings = ci_game.settings
         self.screen_rect = ci_game.screen.get_rect()

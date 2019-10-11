@@ -217,7 +217,7 @@ class CoderInvasion:
             self.ship.center_ship()
         
             # Pause.
-            sleep(0.5)
+            sleep(0.3)
             
         else:
             self.stats.game_active = False
